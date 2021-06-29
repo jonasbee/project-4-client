@@ -1,0 +1,12 @@
+#zoom-in {
+  animation-duration: .3s;
+  animation-name: #{zoom-in};
+}
+@keyframes zoom-in {
+  0%,100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
